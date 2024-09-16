@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(24, 24, 163); */
+    /* background-image: url(https://i.pinimg.com/736x/60/e5/a1/60e5a1c72e0f95355a1db00a638d6abe.jpg); */
+    animation: mudarcores 5s infinite;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    text-align: center;
+
+    }
+main{
+    /* border: solid 5px blue; */
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(250, 235, 215, 0.212);
+    border-radius: 15px;
+}
+
+p{
+    font-family:'Segov UI,Tahona,Geneva,Verdena,Sans-serif';
+    color: #00008B;
+    font-weight:lighter 800;
+font-style: italic;
+font-stretch:expanded;
+line-height: 30px;
+/* letter-spacing: 2px; */
+/* word-spacing: 4px; */
+text-align: justify;
+text-decoration: underline dashed;
+text-transform: capitalize;
+text-indent: 20px;
+}
+
+h1{
+    font-family: cursive;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-style: ligheter;
+    text-align: center;
+}
+footer{
+    margin-top: 10%;
+}
+@keyframes mudarcores{
+    0%{
+        background-color: #0000ff;
+    }
+    25%{
+        background-color: #008000;
+    }
+    58%{
+        background-color: #ff0000;
+    }
+    75%{
+        background-color: #ffff00;
+    }
+}
